@@ -1,3 +1,0 @@
-"C:\Users\knlpr\Documents\GDCdata\TCGA-COAD"
-"C:\Users\knlpr\Documents\GDCdata\TCGA-LUAD"
-Reference Genome: hg38
