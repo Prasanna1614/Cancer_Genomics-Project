@@ -12,6 +12,7 @@ oncoplot(
     top = 10,
     titleText = "COAD Oncoplot"
 )
+
 # Mutation summaries
 plotmafSummary(maf = luad)
 plotmafSummary(maf = coad)
