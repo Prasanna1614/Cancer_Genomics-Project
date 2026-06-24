@@ -16,3 +16,14 @@ oncoplot(
 # Mutation summaries
 plotmafSummary(maf = luad)
 plotmafSummary(maf = coad)
+
+#Compare the two cancer types 
+luad <- read.maf("LUAD.maf")
+coad <- read.maf("COAD.maf")
+
+mafCompare(
+m1 = luad,
+m2 = coad,
+m1Name = "LUAD",
+m2Name = "COAD"
+ )   
