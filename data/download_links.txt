@@ -1,3 +1,16 @@
-"C:\Users\knlpr\Documents\GDCdata\TCGA-COAD"
-"C:\Users\knlpr\Documents\GDCdata\TCGA-LUAD"
-Reference genome-hg38
+Data Source:
+TCGA
+
+Access Method:
+ Data was retrieved through the Genomic Data Commons (GDC) using the
+TCGAbiolinks package and processed using maftools.
+
+Cancer Types:
+TCGA-LUAD-"C:\Users\knlpr\Documents\GDCdata\TCGA-LUAD"
+TCGA-COAD-"C:\Users\knlpr\Documents\GDCdata\TCGA-COAD"
+
+Data Type:
+Masked Somatic Mutation (MAF)
+
+Reference Genome:
+GRCh38 
