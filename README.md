@@ -30,25 +30,34 @@ https://portal.gdc.cancer.gov/
 ---
 
 ## Tools and Packages
-- R
-- maftools
-- NMF
-- MutationalPatterns
-- pheatmap
-- BSgenome.Hsapiens.UCSC.hg38
+
+-r(programming environment)
+-maftools(data processing and mutation analysis)
+-Sigprofilematrixgenerator,Sigprofileextractor,MutationalPatterns,NMF (Mutational Signature Analysis)
+GenomicRanges,BSgenome.Hsapiens.UCSC.hg38(Genomic Data Handling)
+-ggplot2,pheatmap(visualisation)
 
 ---
 
 ## Workflow
 
-TCGA MAF Files  
-→ Mutation preprocessing  
-→ SBS96 matrix generation  
-→ NMF signature extraction  
-→ COSMIC signature comparison  
-→ Heatmap generation  
-→ Biological interpretation  
-→ LUAD vs COAD comparative analysis
+TCGA LUAD/COAD MAF Files
+         ↓
+Mutation Preprocessing (maftools)
+         ↓
+SBS96 Matrix Generation (SigProfilerMatrixGenerator)
+         ↓
+ Signature Extraction (SigProfilerExtractor)
+         ↓
+NMF-based Signature Decomposition
+         ↓
+Signature Exposure Estimation
+         ↓
+COSMIC Signature Matching (MutationalPatterns)
+         ↓
+Heatmap and Comparative Analysis
+         ↓
+Biological Interpretation
 
 ---
 
