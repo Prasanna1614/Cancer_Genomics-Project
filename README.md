@@ -71,7 +71,7 @@ data/ → Dataset information and download references
 
 scripts/ → R scripts for analysis
 
-results/ → Generated CSV result files
+results/ → Generated result files
 
 figures/ → Heatmaps, oncoplots, and signature plots
 
@@ -81,4 +81,4 @@ presentation/ → Final project presentation
 
 ## Author
 K.N.L.Prasanna,
-MSc Biotechmology,VIT Vellore
+MSc Biotechnology,VIT Vellore
