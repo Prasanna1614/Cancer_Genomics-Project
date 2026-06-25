@@ -80,5 +80,5 @@ presentation/ → Final project presentation
 ---
 
 ## Author
-K.N.L.Prasanna
-MSc Biotech,VIT Vellore
+K.N.L.Prasanna,
+MSc Biotechmology,VIT Vellore
