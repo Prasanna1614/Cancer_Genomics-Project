@@ -67,6 +67,7 @@ TCGA MAF Files
 ---
 
 ## Repository Structure
+data/ → Dataset information and download references
 
 scripts/ → R scripts for analysis
 
@@ -75,8 +76,6 @@ results/ → Generated CSV result files
 figures/ → Heatmaps, oncoplots, and signature plots
 
 presentation/ → Final project presentation
-
-data/ → Dataset information and download references
 
 ---
 
